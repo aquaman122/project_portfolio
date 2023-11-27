@@ -1,0 +1,49 @@
+@import 'reset.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  border-bottom: 1px solid;
+}
+
+.header_name {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.header_project,
+.header_menu {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header_project a:first-child{
+  margin-right: 20px;
+}
+
+.header_menu {
+  margin-left: 150px;
+}
+
+.header_name {
+  margin-left: 2rem;
+}
+.header_cs:hover,
+.header_project:hover,
+.header_name:hover {
+  color: #757a76;
+  transition: color .5s;
+  cursor: pointer;
+}
+
+.header_menu {
+  margin-right: 2rem;
+}
