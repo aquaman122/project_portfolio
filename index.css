@@ -47,3 +47,66 @@ body {
 .header_menu {
   margin-right: 2rem;
 }
+
+main {
+  display: flex;
+}
+
+.main-left {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.main-right {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 130px;
+}
+
+.profile_name {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.profile_skills {
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+li {
+  font-size: 24px;
+}
+
+button {
+  font-size: 24px;
+  margin-top: 10px;
+  width: 130px;
+  height: 40px;
+  color: cornflowerblue;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+}
